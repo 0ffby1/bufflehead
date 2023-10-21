@@ -1,0 +1,21 @@
+Posts 
+    ID
+    (Title)
+    Body
+    Timestamp
+    Parent
+    Identity -> User
+
+Users
+    ID
+    Timestamp
+    IP[]
+    Details -> PersistantUser
+
+PersistantUsers 
+    ID
+    Timestamp
+    Password Hash
+    Bio
+    Block[]
+    Theme
