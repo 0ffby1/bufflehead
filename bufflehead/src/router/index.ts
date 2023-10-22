@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/user/:id',
       name: "user",
       component: () => import("../views/UserView.vue")
+    },
+    {
+      path: '/:notFound',
+      name: '404',
+      component: () => import("../views/PageNotFoundView.vue")
     }
   ]
 })
