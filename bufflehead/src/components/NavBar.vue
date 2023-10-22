@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-sm bg-body">
     <div class="container-lg">
       <a href="" class="navbar-brand">Bufflehead</a>
       <button class="navbar-toggler" 

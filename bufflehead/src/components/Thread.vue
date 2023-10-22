@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <div class="mt-3 pt-1 bg-primary-subtle post-div rounded">
+    <div class="mt-3 pt-1 bg-body shadow post-div rounded">
         <div class="mb-1 px-2 row">
             <router-link 
                 class="col-auto link-primary bold-link link-underline-opacity-0"
