@@ -25,7 +25,9 @@ export default {
             <a class="col-auto link-danger bold-link">Report</a>
         </div>
         <div class="row px-2 pb-2">
-            <img class="col-3 mt-2 post-ing" :src=img v-if="img">
+            <div class="col-3">
+                <img class="w-100 mt-2 post-img align-top" :src=img v-if="img">
+            </div>
             <div class="col-9">
                 <h2>{{ title }}</h2>
                 <p>{{ body }}</p>
@@ -38,10 +40,12 @@ export default {
     .bold-link {
         font-weight: bold;
     }
-    .post-ing {
+    .post-img {
         max-height: 250px;
+        object-fit: contain;
     }
     .post-div {
         width: fit-content;
     }
+
 </style>
