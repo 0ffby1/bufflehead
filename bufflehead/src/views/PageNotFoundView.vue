@@ -4,7 +4,7 @@
             <h1 class="display-1 fw-bold">404</h1>
             <p class="fs-3">Page not found.</p>
             <p class="lead">
-                The page <code>{{ $route.params.notFound }}</code> doesn’t exist.
+                The page <mark>{{ $route.params.notFound }}</mark> doesn’t exist.
                 </p>
             <router-link to="/" class="btn btn-outline-success">Go Back Home</router-link>
         </div>

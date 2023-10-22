@@ -25,8 +25,8 @@ export default {
             <a class="col-auto link-danger bold-link">Report</a>
         </div>
         <div class="row px-2 pb-2">
-            <div class="col-3">
-                <img class="w-100 mt-2 post-img align-top" :src=img v-if="img">
+            <div class="col-3" v-if="img">
+                <img class="w-100 mt-2 post-img align-top" :src=img>
             </div>
             <div class="col-9">
                 <h2>{{ title }}</h2>
